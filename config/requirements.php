@@ -11,7 +11,5 @@ return [
           'storage/logs' => '775',
       ],
   ],
-    'pid' => '169936819921',
     'home_url' => '/',
-    'portfolio_url' => 'https://codecanyon.net/user/bug-finder/portfolio',
 ];
