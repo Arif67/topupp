@@ -1,0 +1,20 @@
+[2026-07-18 17:37:51] local.ERROR: chdir(): No such file or directory (errno 2) {"exception":"[object] (ErrorException(code: 0): chdir(): No such file or directory (errno 2) at /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php:43)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(43): chdir()
+#2 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#3 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#7 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#8 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#9 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Console/Command.php(120): Symfony\\Component\\Console\\Command\\Command->run()
+#10 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#11 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#13 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#14 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#15 /home/abbas/All Project/topup app-20260718T171553Z-1-001/topup app/billpay-1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
